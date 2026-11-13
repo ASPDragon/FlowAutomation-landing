@@ -270,8 +270,12 @@ function App() {
         </section>
       </main>
       <footer>
-        <a className="brand" href="#">
-          <span className="brand-symbol">f</span>Flow<span>Automation</span>
+        <a className="brand" href="#" aria-label="FlowAutomation home">
+          <img
+            src={`${import.meta.env.BASE_URL}logo.png`}
+            alt="FlowAutomation"
+            className="brand-image"
+          />
         </a>
         <span>© {new Date().getFullYear()} FlowAutomation</span>
         <a href="#">Back to top ↑</a>
